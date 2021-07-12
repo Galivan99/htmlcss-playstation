@@ -1,0 +1,20 @@
+/* NAV */
+
+.black-bar{
+    padding-top:10px;
+    padding-bottom:10px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+}
+
+.black-bar img{
+    width: 70px;
+
+}
+
+.navbar{
+    background-color:rgb(236, 239, 241); 
+}
+
+/* /NAV */
