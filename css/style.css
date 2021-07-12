@@ -18,3 +18,26 @@
 }
 
 /* /NAV */
+
+/* JUMBO */
+
+#jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#jumbo .content img{
+    width: 70%;
+}
+
+#jumbo .content button{
+    border-radius: 200px;
+
+}
+
+.content-box {
+    padding-top: 30%;
+    padding-bottom: 10%;
+}
