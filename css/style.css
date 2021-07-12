@@ -37,7 +37,102 @@
 
 }
 
-.content-box {
+#jumbo .content-box {
     padding-top: 30%;
     padding-bottom: 10%;
 }
+
+/* /JUMBO */
+
+/* SLIDES */
+
+#slides .content{
+    margin-top: 30px;
+}
+
+#slides .box_img{ 
+    border-radius: 20px;
+    border:2px solid white;
+    overflow: hidden;
+}
+
+#slides .box_img img{
+    width: 100%;
+    border:2px solid white;
+    border-radius:20px;
+}
+ 
+#slides .box_img:hover{
+    border:2px solid blue;
+}
+
+/* PS5 */
+
+#ps5 .presentation{
+    text-align: center;
+    margin-top:80px;
+    margin-bottom:30px;
+}
+
+#ps5 .presentation h6{
+    color:rgb(42, 42, 238);
+}
+
+#ps5 .tiny_title{
+    margin-top:30px; 
+}
+
+#ps5 .tiny_title button{
+    border-radius: 20px;
+    color: white;
+    background-color:blue;
+}
+
+#ps5 .thumb{
+    width: 100%;
+    margin-top:30px; 
+}
+
+#ps5 .box-accessori{
+    margin:0 auto;
+}
+
+#ps5 .accessori img{
+    width: 100%;
+    opacity: 0.5;
+}
+
+#ps5 .accessori{
+    font-size:12px;
+    margin-top:20px;
+
+}
+
+#ps5 .accessori img:hover{
+    border-bottom:2px solid blue;
+    opacity: 1;
+}
+
+/* IT TAKES TWO */
+
+
+#it_takes_two .content_box .content img{
+    width: 70%;
+}
+
+#it_takes_two{
+    margin-top:20px;
+    background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#it_takes_two .content_box {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: white;
+}
+
+#it_takes_two .content_box button{
+    border-radius: 200px;
+} 
