@@ -13,11 +13,19 @@
 
 }
 
-.navbar{
-    background-color:rgb(236, 239, 241); 
+nav .navbar{
+    background-color:#F8F9FA; 
 }
 
-/* /NAV */
+nav .b_black{
+    color: white;
+    background-color: #363636;
+    border-radius: 20px;
+}
+
+nav .b_black:hover{
+    color: white;
+}
 
 /* JUMBO */
 
@@ -41,8 +49,6 @@
     padding-top: 30%;
     padding-bottom: 10%;
 }
-
-/* /JUMBO */
 
 /* SLIDES */
 
@@ -225,3 +231,72 @@
 }
 
 /* PS NOW */
+
+#ps_now .ps_now_cont{
+    color: white;
+    margin-top:30px;
+    background-color: #161C3B;
+}
+
+#ps_now .now_img_games{
+    width: 90%;
+}
+
+#ps_now .ps_now_logo{
+    width: 70%;
+}
+#ps_now .description button{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+@media (max-width: 420px) {
+    #ps_now .now_img_games {
+        display: none;
+    }
+}
+
+/* SOCIAL */
+
+.social_title{
+    margin-top:30px;
+    margin-bottom:40px;
+    text-align: center;
+}
+
+#social .social_img img{
+    width: 90%;
+}
+
+@media (max-width: 420px) { 
+    #social .social_img img{
+     margin-top:30px; 
+          
+    } 
+} 
+
+/* FOOTER */
+
+footer{
+    color: white;
+    background-color: blue;
+    margin-top:30px;
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+
+footer ul{
+    text-align: center;
+    padding-top:20px;
+    list-style: none;
+
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .sony_f div{
+    font-size:12px;
+}       
