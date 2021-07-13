@@ -158,3 +158,70 @@
     border-radius:20px;
     border:4px solid blue;
 }
+/* PS4 */
+
+#ps4 .ps4_title {
+    font-size:14px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+
+#ps4 .thumb{
+    width:100%;
+}
+
+
+#ps4 button{
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom:30px;
+    margin-top:10px;
+}
+
+/* PS_PLUS */
+
+#ps_plus .ps_plus_cont{
+    margin-top:30px;
+    background-color: rgb(148, 148, 148);
+}
+
+#ps_plus .plus_logo{
+    width: 60%;
+}
+
+#ps_plus .plus_img{
+    width: 100%;
+}
+
+#ps_plus .ps_plus_cont .description button{
+    color: blue;
+    background-color: #C7C2C2;
+    border-radius: 20px;
+    font-size:14px;
+
+}
+
+@media (max-width: 420px) {
+    #ps_plus .plus_img {
+        display: none;
+    }
+}
+
+/* Ps sales */
+
+#sales .sales_store{
+    margin-top:30px;
+}
+
+
+#sales .sales_title{
+   text-align: center;
+}
+
+#sales .sales_content img{
+    width: 100%;
+}
+
+/* PS NOW */
